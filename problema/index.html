@@ -3,6 +3,7 @@
 	<head>
 	  	<meta charset="utf-8">
 	  	<title>User Testing 360°</title>
+	  	<link rel="icon" href="favicon.ico ">
 	  	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	  	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	  	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
@@ -10,25 +11,40 @@
 	  	<link rel="stylesheet" type="text/css" href="css/icomoon.css">
 	  	<link rel="stylesheet" type="text/css" href="css/queries.css">
 	  	<link rel="stylesheet" type="text/css" href="css/main.css">
+
 	</head>
 	<body>
 		<header>
-				<div class="row mg-0">
-					<div class="col-md-5 col-xs-12 pd-4">
-						<a href="#inicio"><img src="image/user-r.png"></a>
-					</div>
-					<div class="col-md-7 col-xs-12 pd-4">
-						<nav>
-							<ul class="nav">
-								<a class="nav-link text-white" href="#service">¿Qué me ofrece?</a>
-								<a class="nav-link text-white" href="#example">¿cómo funciona?</a>
-								<a class="nav-link text-white" href="#usos">¿por qué usarlo?</a>
-								<a class="nav-link text-white" href="contact.html">Contactanos</a>
-							</ul>
-						</nav>
-					</div>
-				</div>
-		</header>
+	    <nav id="menu" class="navbar navbar-inverse navbar-fixed-top">
+	      <div class="conatiner-fluid pd-0-2">
+	        <div class="navbar-header">
+		          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		          </button>
+	          <a href="index.html"><img src="image/user-r.png" class="navbar-brand"></img></a>
+	        </div>
+	        <div class="collapse navbar-collapse" id="collapse">
+	          <ul class="nav navbar-nav navbar-right text-center">
+	            <li>
+	              <a class="hvr-bounce-to-right" href="#service">¿Qué me ofrece?</a>
+	            </li>
+	            <li>
+	              <a class="hvr-bounce-to-right" href="#example">¿Cómo funciona?</a>
+	            </li>
+	            <li>
+	              <a class="hvr-bounce-to-right" href="#usos">¿Poque usarlo?</a>
+	            </li>
+	            <li>
+	              <a class="hvr-bounce-to-right" href="contact.html" target="_blank">Contactanos</a>
+	            </li>
+	          </ul>
+	        </div>
+	      </div>
+	    </nav>
+	  </header>
+
 		<section id="inicio">
 			<div class="opacidad">
 				<div class="row mg-0">
@@ -54,8 +70,8 @@
 				<div class="row text-center">
 					<h2 class="nos">Nuestros servicios</h2>
 					<div class="col-md-4 col-xs-12 text-center">
-						<div class="servicios">
-							<span class="icon-video"></span>
+						<div class="servicios ">
+							<span class="icon-video animated flash"></span>
 							<h3>Pruebalo gratis</h3>
 							<p>Obtén un primer video screencast de un usuario navegando tu página.</p>
 						</div>
@@ -63,14 +79,14 @@
 					</div>
 					<div class="col-md-4 col-xs-12 text-center">
 						<div class="servicios">
-							<span class="icon-clock"></span>
+							<span class="icon-clock animated flash"></span>
 							<h3>Compra el servicio completo</h3>
 							<p>Si te gustó; compra nuestro servicio completo que incluye 7 videos y feedback.</p>
 						</div>
 					</div>
 					<div class="col-md-4 col-xs-12 text-center">
 						<div class="servicios">
-							<span class="icon-documents"></span>
+							<span class="icon-documents animated flash"></span>
 							<h3>Obtén el resultado en 1 día</h3>
 							<p>Te haremos llegar los videos y feedback completo el mismo día.</p>
 						</div>
@@ -83,7 +99,7 @@
 			<div class="container-fluid">
 					<div class="row">
 							<div class="col-md-6 col-xs-12 ejemplo">
-								<h2>Ejemplo de <img class="logo" src="image/logo-2.jpg"></h2>
+								<h2>Ejemplo de <img class="logo animated swing" src="image/logo-2.jpg"></h2>
 								<p>En este video te damos un ejemplo de un integrante de nuestro panel evaluando la experiencia de usa de:</p>
 								<a href="">mimediamanzana.com</a>
 								<p>El objetivo de User Testing 306 es identificar situaciones confusas de los usuarios en su web y describir soluciones, que garanticen una experiencia de uso satisfactoria.</p>
@@ -136,7 +152,7 @@
 			<div class="container-fluid">
 					<div class="row">
 							<div class="col-md-6 col-xs-12 use ejemplo">
-								<h2>Por qué usar <img class="logo2" src="image/logo-2.jpg"></h2>
+								<h2>Por qué usar <img class="logo2 animated swing" src="image/logo-2.jpg"></h2>
 								<p>En la era en la  que nos econtramos, la web se ha convertido en el mejor sitio para llegar a millones de personas en segundos, pero ¿qué pasa si el producto digital que ofreces no es bueno o no se entiende? Pierdes esta enorme oportunidad. Con <a href="">User Testing 360</a>, puedes entender la experiencia de uso de tu página o producto digital y mejorarla para que satisfaga todas las necesidades de tus usuarios. con <a href="">User Testing 360</a> podrás entender:</p>
 								<ul>
 									<li>¿Cómo tu público objetivo verdaderamente usa tu producto?</li>
@@ -179,6 +195,21 @@
 				</div>
 			
 		</footer>
+		
 		<!--Escribe aqui tu codigo-->
+			  <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/menu-scroll.js"></script>
     </body>
 </html>

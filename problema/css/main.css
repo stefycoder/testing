@@ -4,12 +4,20 @@
 	box-sizing: border-box;
 	font-family: 'Open Sans', sans-serif;
 }
-header{
-	position: fixed;
-	width: 100%;
-	border-bottom: 2px solid #58A5FF;
-	background-color:rgba(114, 121, 127,0.6);
-	z-index: 15;
+#menu.active {
+	background-color: #4E7EB8;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.navbar-fixed-top{
+	padding:0 5%;
+}
+.navbar-brand{
+	height: 60px;
+}
+.navbar-inverse{
+	background:rgba(114, 121, 127,0.6)
 }
 .mg-0{
 	margin: 0px;
@@ -30,17 +38,6 @@ header{
 .opacidad{
 	background-color:rgba(114, 121, 127,0.6);
 	height: 100vh;
-}
-.nav-link{
-	padding-left: 4%;
-	font-size: 1.2em;
-}
-.nav a:hover{
-	background: #58A5FF;
-	text-decoration: none;
-	padding: 2%;
-	color:black;
-	border-radius: 10px;
 }
 .text1 h1{
 	font-size: 4em;
@@ -130,7 +127,7 @@ header{
 .logo{
 	width: 60%;
 }
-.video iframe{
+iframe{
 	width: 100%;
 	height: 320px;
 }
@@ -219,4 +216,65 @@ header{
 	color: #2D5F97;
 	font-size: 1.8em;
 	padding-left: 4%;
+}
+@media screen and (max-width: 700px){
+	.navbar-brand{
+		height: 50px;
+	}
+	.text1 h1{
+		font-size: 2.5em;
+		padding: 25.7% 11%;
+	}
+	.celeste{
+		text-align: center;
+	}
+	.servicios{
+		padding-top: 30%;
+	}
+	.servicios span{
+		margin-top: 30%;
+	}
+	#example{
+		padding: 0;
+	}
+	.separa{
+		left:35%;
+	}
+	.tecla{
+		height: 320px;
+	}
+	.opacity{
+		height: 320px;
+	}
+	.step{
+		padding-bottom: 20%;
+	}
+	video{
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	.pasos ul li{
+		margin-left: 20%;
+	}
+	.pasos span{
+		margin-top: 16%;
+		margin-left: 0;
+	}
+	.pasos h4{
+		margin:0 0 10px 45px;
+	}
+	.pasos p{
+		margin-left: 12%;
+	}
+	.banner{
+		width: 100%;
+	}
+	.celeste2{
+		height: 180px;
+	}
+	.negro{
+		width: 100%;
+		text-align: center;
+	}
 }
