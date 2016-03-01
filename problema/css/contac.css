@@ -1,0 +1,82 @@
+*{
+	font-family: serif;
+}
+body{
+	background: url(../image/large.jpg)no-repeat;
+	background-size: cover;
+}
+.required_notification { 
+	font-size: 11px; 
+	font-weight: bold;
+}
+#form{
+	padding: 10% 20%;
+}
+.contact_form ul {
+	border-top: 6px #6390C7 solid;
+	width: 680px;
+	background: white;
+	list-style-type: none; 
+	list-style-position: outside; 
+	padding:0 12%;
+}
+.contact_form li { 
+	padding: 0.5%; 
+	position: relative; 
+}
+.required_notification1 { 
+	color: #d45252; 
+}
+.contact_form p{
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.solo{ 
+	position: absolute;
+    top: 5px;
+    right: 20px;
+    width: 300px;
+} 
+hr{
+	border:1px solid;
+	color: #9A9A9A;
+}
+.contact_form textarea{ 
+	position: absolute;
+    top: 5px;
+    right: 20px;
+	padding: 8px; 
+	width: 300px; 
+}
+.contact_form button { 
+	margin-left: 195px; 
+	margin-top: 7%;
+	margin-bottom: 12%;
+	background:#74A3DB;
+	padding: 1%;
+	color: white;
+	border:none;
+	border-radius: 2px;
+}
+.ultimo{
+	position: absolute;
+    right: 55px;
+    width: 240px;
+    bottom: 24px;
+}
+.by{
+	position: absolute;
+    left: 22%;
+    bottom: 26%;
+}
+.by a{
+	color: black;
+    font-size: 0.8em;
+}
+.report{
+	position: absolute;
+    right: 30%;
+    bottom: 26%;
+    color: black;
+    font-size: 0.8em;
+}
